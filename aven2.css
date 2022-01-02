@@ -1,0 +1,172 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#HeaDer{
+    max-width: 100%;
+    margin: 30px 180px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    overflow: hidden;
+}
+.NavBar{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.LogoImg{
+    text-align: left;
+}
+.LogoImg img{
+    text-align: left;
+    width: 50px;
+    height: 50px;
+}
+.headerRight{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: end;
+}
+.searchBtn{
+
+}
+.searchBtn img{
+    height: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+.searchBtn li{
+    list-style: none;
+}
+.bell-userImg{
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+    background: rgb(190, 187, 187);
+    border-radius: 15px;
+    box-shadow: -2px 5px 8px 0px rgb(39, 38, 38);
+}
+.userImage img{
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid rgb(139, 137, 137);
+}
+.bell-userImg li{
+    list-style: none;
+}
+.bell-userImg img{
+    height: 20px;
+    margin:5px;
+}
+@media screen and (max-width: 770px){
+    #HeaDer{
+        margin: 10px 5px;
+    }
+    #Hotter{
+        margin: 10px 5px;
+    }
+    .NavBar{
+        width: 100%;
+        padding-bottom: 30px;
+        height: 25px;
+        margin: 20px;
+        overflow-wrap: break-word;
+    }
+
+    .LogoImg img{
+        width: 30px;
+        height: 30px;
+    }
+    .hottest-deals{
+        width: 50px;
+        width: 50px;
+        line-height: 0px;
+        margin: 10px;
+    }
+    .hottest-deals img{
+        width: 50px;
+        height: 50px;
+    }
+    .bell-userImg{
+        margin-right: 30px;
+    }
+    .EtherImg{
+        margin: 0px 5px;   
+    }
+}
+
+#leftRightImages{
+    margin: 30px;
+
+}
+.imgHeading{
+    text-align: center; 
+}
+.leftRight{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.leftImg{
+    flex-basis: 30%;
+    text-align: center;
+    background-color: rgb(244, 255, 255);
+    border-radius: 15px;
+}
+.leftImg img{
+    width: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.rightImg img{
+    width: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.rightImg{
+    flex-basis: 30%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+section{
+    text-align: center;
+}
+#Hotter{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.hottest-deals{
+    width: 160px;
+    line-height: 0px;
+    margin: 0px 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.hottest-deals img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.EtherImg img{
+    height: 20px;
+    width: 15px;
+}
+.EtherImg p{
+    margin: 0px;
+    text-align: center;
+}
+.EtherImg{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;    
+}

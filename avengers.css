@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(195, 204, 204);
+}
+#avenGers{
+    margin: 30px 250px;
+    text-align: center;
+    padding-top: 10em;
+    background-color: rgb(238, 238, 238);
+    height: 80vh;
+    border-radius: 50px;
+    position: inherit;
+}
+.logoImg{
+    width: 30%;
+    height: 10em;
+    border-radius: 100%;
+}
+
+h1{
+    color: rgb(13, 138, 240);
+    font-size: 50px;
+    text-align: center;
+   
+}
+.mighty{
+    color: rgb(13, 138, 240);
+    font-size: x-large;
+}
+.continue{
+    display: inline-flex;
+    justify-content: space-between;
+    background: rgb(13, 138, 240);
+    width: 150px;
+    align-items: center;
+    padding: 0px 20px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.continue a{
+    text-decoration: none;
+    color: azure;
+}
+.continue a:hover{
+    color: rgb(14, 15, 15);
+}
+.continue:hover{
+    background: rgb(67, 252, 181);
+    transform: rotateX(15deg);
+    transition: 2s;
+}
+@media screen and (max-width: 770px){
+    #avenGers{
+        margin: 10px 4px;
+        padding-top: 10em;
+        border-radius: 50px;
+        position: inherit;
+    }
+}
